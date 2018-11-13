@@ -1,0 +1,17 @@
+/coverage
+/demo/dist
+/es
+/lib
+/node_modules
+/umd
+npm-debug.log*
+
+# Ignore installed node modules
+node_modules
+
+# Ignore logs
+npm-debug.log
+
+.DS_Store
+
+*.orig

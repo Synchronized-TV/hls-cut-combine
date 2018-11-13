@@ -1,0 +1,33 @@
+{
+  "main": "index.js",
+  "name": "hls-cut-combine",
+  "version": "1.0.0",
+  "scripts": {
+    "supervisor": "supervisor",
+    "test": "mocha --timeout 999999",
+    "autotest": "supervisor -q -n exit -x mocha -- -b --timeout 999999"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.349.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "ffprobe-static": "^3.0.0",
+    "mocha": "^1.21.5",
+    "prettier-eslint": "^8.8.2",
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "m3u8": "0.0.7",
+    "nano-memoize": "^1.0.0",
+    "qs": "^6.5.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "streamifier": "^0.1.1",
+    "traverse": "^0.6.6"
+  }
+}
